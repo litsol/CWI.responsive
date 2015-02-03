@@ -1,5 +1,5 @@
 /*********************************************************
-beyondskins.Responsive - Diazo responsive theme for Plone
+cwi.Responsive - Diazo responsive theme for Plone
 Simples Consultoria - www.simplesconsultoria.com.br
 *********************************************************/
 
@@ -10,7 +10,7 @@ Simples Consultoria - www.simplesconsultoria.com.br
 body {background: url(bg.jpg) top repeat-x;}
 #header {
 background: transparent url(header.png) top center no-repeat;
-background-size: 100% auto; 
+background-size: 100% auto;
 position:relative;
 }
 
@@ -19,8 +19,8 @@ position:relative;
 /* Colors and fonts */
 body {
 background-color: #fff;
-color: #000000; 
-font-family: Arial, Helvetica, sans-serif; 
+color: #000000;
+font-family: Arial, Helvetica, sans-serif;
 font-size: 62.5%; /* with this 1em = 10px */
 }
 a:link, #content a:link, dl.portlet a:link {color:#205C90;}
@@ -30,14 +30,14 @@ h1 {color: #205C90;}
 h2, h3, h4, h5, h6 {color: #636363;}
 h1, h2, h3 {margin: 0.5em 0 0.5em;}
 p {line-height: 1.8em; margin: 0 0 1em 0;}
-#wrapper { 
-width:auto; 
-margin: 0 auto; 
+#wrapper {
+width:auto;
+margin: 0 auto;
 max-width: 90%;
 font-size: 1.2em;}
 #main {
-background:#fff; 
-font-size: 1.3em; 
+background:#fff;
+font-size: 1.3em;
 padding: 1em 0;
 }
 
@@ -58,16 +58,16 @@ padding: 1em 0;
 /* Main navigation */
 #nav {background: #205C90;	}
 #nav ul {;
-background: #205C90;	
+background: #205C90;
 color: #fff;
 font-size: 1.2em;
 border-bottom: 1px solid #FF9900;
 }
 #nav a {
-color: #fff; 
-padding: 1em; 
-text-decoration: none; 
-min-width: 3em; 
+color: #fff;
+padding: 1em;
+text-decoration: none;
+min-width: 3em;
 display: inline-block;
 }
 #nav a:hover, #nav li.selected a {background: #ff9900;}
@@ -83,9 +83,9 @@ display: inline-block;
 /****************** CONTENT ******************/
 
 /* Text styles */
-.hidden {display: none;} 
+.hidden {display: none;}
 .clear {clear: both;}
-.pb-ajax, .pb-image, 
+.pb-ajax, .pb-image,
 .overlay iframe {font-size: 1.4em;}
 .portlet img, #content img {max-width:100%;}
 
@@ -120,10 +120,10 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {list-style: none;}
 @media screen and (max-width: 768px) {
 
 	#wrapper {max-width: 100%;}
-	#logo {min-width:140px;}	
-	
+	#logo {min-width:140px;}
+
 	/*Columns*/
-	#portal-column-one, 
+	#portal-column-one,
 	#portal-column-two,
 	#portal-column-content {clear: both; width: 97.75%; margin-left: -98.875%;}
 
@@ -133,9 +133,9 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {list-style: none;}
 	/*Global navigation*/
 	#nav {padding:0;width:100%;
 	}
-	
+
 	#searchbt {display:block; float:right;width:14%;}
-	
+
 	#searchbt a {
 		display:block;
 		text-indent: -900000px;
@@ -143,30 +143,30 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {list-style: none;}
 		margin-top: 4%;
 		background:transparent url(search-ico.png) no-repeat center center;
 	}
-	
+
 	#nav #seletor {
 		display:block;
 		padding:1em;
 		width:80%;
 		background:url("sections-ico.png") no-repeat 97% 60%;
 	 }
-	
+
 	#nav li {display: none;}
-	
+
 	#nav:hover li {
 		display: block;
-		width:100%; 
+		width:100%;
 		border-top:1px solid #ffffff;;
 		display:block !Important;
 		padding:0;
 	}
-	
+
 	#nav ul {
 		width:97.5%;
 		margin:0;
 		padding:0;
 	}
-	
+
 	#nav:hover li a {
 		color: #ffffff;;
 		width:100%;
@@ -175,11 +175,11 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {list-style: none;}
       display: block;
       width: 95% !important;
 	}
-	
+
 	#nav:hover li:hover {background: #ff9900;}
 	#nav:hover li a:hover,
 	#nav:hover li.selected a {background: transparent;}
-	
+
 .overlay.overlay-ajax {top: 10px !Important;}
 .overlay.overlay-ajax input.searchPage {
     font-size: 200% !important;
@@ -195,7 +195,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {list-style: none;}
 @media screen and (max-width: 480px) {
 
 	#portal-breadcrumbs {display:none;}
-	
+
 	#portal-searchbox {
 	    float: none;
         width:80%;

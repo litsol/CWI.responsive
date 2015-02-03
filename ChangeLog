@@ -1,0 +1,7 @@
+2015-02-03  Michael Guravage  <guravage@weddell.itf.cwi.nl>
+
+	* README.txt: Replace beyondskins with cwi.
+
+	* setup.py: Replace beyondskins with cwi.
+
+	* MANIFEST.in: Replace beyondskins with cwi.

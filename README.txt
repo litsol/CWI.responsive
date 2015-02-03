@@ -19,7 +19,7 @@ Requirements
 ------------
 
     * Plone 4.1.x (http://plone.org/products/plone)
-    
+
     * plone.app.theming (*will be installed as a dependency of this package*)
 
 Screenshots
@@ -27,11 +27,11 @@ Screenshots
 
 Layout of the site when viewed in a computer resolution:
 
-.. image:: https://github.com/simplesconsultoria/beyondskins.responsive/raw/master/beyondskins.responsive-full.png
+.. image:: https://github.com/simplesconsultoria/cwi.responsive/raw/master/cwi.responsive-full.png
 
 Layout of the site when viewed with a tablet resolution:
 
-.. image:: https://github.com/simplesconsultoria/beyondskins.responsive/raw/master/beyondskins.responsive-reduced.png
+.. image:: https://github.com/simplesconsultoria/cwi.responsive/raw/master/cwi.responsive-reduced.png
 
 Installation
 ------------
@@ -44,8 +44,8 @@ Zip file
 
 If you are an end user, you might enjoy installation via zip file import.
 
-    1. Download a `zip file <https://github.com/simplesconsultoria/beyondskins.responsive/raw/master/beyondskins.responsive.zip>`_ 
-        
+    1. Download a `zip file <https://github.com/simplesconsultoria/cwi.responsive/raw/master/cwi.responsive.zip>`_
+
     2. Import the theme from the Diazo theme control panel.
 
 Buildout
@@ -53,19 +53,19 @@ Buildout
 
 If you are a developer, you might enjoy installing it via buildout.
 
-Add ``beyondskins.responsive`` to your ``plone.recipe.zope2instance`` section's *eggs* parameter e.g.::
+Add ``cwi.responsive`` to your ``plone.recipe.zope2instance`` section's *eggs* parameter e.g.::
 
     [instance]
     eggs =
         Plone
         ...
-        beyondskins.responsive
+        cwi.responsive
 
 Or, you can add it as a dependency on your own product *setup.py*::
 
     install_requires=[
         ...
-        'beyondskins.responsive',
+        'cwi.responsive',
     ],
 
 
@@ -78,15 +78,14 @@ Enabling the theme
 Credits
 -------
 
-    * Thiago Tamosauskas (thiago at simplesconsultoria dot com dot br) - CSS, 
+    * Thiago Tamosauskas (thiago at simplesconsultoria dot com dot br) - CSS,
       Accessibility and Q&A.
-      
-    * Andre Nogueira (andre at simplesconsultoria dot com dot br) - Conception 
+
+    * Andre Nogueira (andre at simplesconsultoria dot com dot br) - Conception
       and prototype.
-    
+
     * Davi Lima (davi at simplesconsultoria dot com dot br) - Translation,
       Fixes.
 
 .. _`plone.app.theming`: http://pypi.python.org/pypi/plone.app.theming
 .. _`Plone 4.1`: http://pypi.python.org/pypi/Plone/4.1rc2
-

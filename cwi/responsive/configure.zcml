@@ -4,9 +4,9 @@
 
     <include package="plone.resource" file="meta.zcml"/>
 
-    <plone:static 
-            name="beyondskins.responsive"
-            directory="theme/beyondskins.responsive" 
+    <plone:static
+            name="cwi.responsive"
+            directory="theme/cwi.responsive"
             type="theme" />
 
 </configure>

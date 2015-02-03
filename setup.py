@@ -2,9 +2,9 @@
 from setuptools import setup, find_packages
 import os
 
-version = open(os.path.join("beyondskins", "responsive", "version.txt")).read().strip()
+version = open(os.path.join("cwi", "responsive", "version.txt")).read().strip()
 
-setup(name='beyondskins.responsive',
+setup(name='cwi.responsive',
       version=version,
       description="A responsive design for Plone/Diazo powered sites",
       long_description=open(os.path.join("README.rst")).read() + "\n" +
@@ -23,7 +23,7 @@ setup(name='beyondskins.responsive',
       url='http://www.simplesconsultoria.com.br/',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=['beyondskins',],
+      namespace_packages=['cwi',],
       include_package_data=True,
       zip_safe=False,
       install_requires=[

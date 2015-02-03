@@ -2,6 +2,6 @@ include MANIFEST.in
 include README.rst
 include *.png
 include *.zip
-recursive-include beyondskins *
+recursive-include cwi *
 recursive-include docs *
 global-exclude *pyc
